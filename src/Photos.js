@@ -11,9 +11,10 @@ import "./Photos.css";
                 <div className="col-4" key={index}>
                   <a href={Photos.src.original}  target="_blank" rel="noreferrer">  
 
-                     {/* This is a comment inside JSX */}         
-                       <img src="https://www.pexels.com/photo/seashore-269583/', photographer: 'Pixabay', …}" alt="Sea shore" 
-             className="img-fluid"/>
+                     //* This is a comment inside JSX *//       
+                       <img src="https://images.pexels.com/photos/269583/seashore.jpg" alt="Seashore" 
+
+            className="img-fluid"/>
              </a>
        </div>
             );
@@ -24,4 +25,4 @@ import "./Photos.css";
     return null;
  }
  }
- <img src="image_url.jpg" alt="Description of the image" />
+ 
