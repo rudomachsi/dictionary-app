@@ -9,7 +9,10 @@ import "./Photos.css";
             {props.photos.map(function (Photos, index){
             return(
                 <div className="col-4" key={index}>
-                  <a href={Photos.src.original}  target="_blank" rel="noreferrer">            <img src={Photos.src.landscape} 
+                  <a href={Photos.src.original}  target="_blank" rel="noreferrer">  
+
+                     // eslint-disable-next-line         
+                       <img src="https://www.pexels.com/photo/seashore-269583/', photographer: 'Pixabay', …}" alt="Sea shore" 
              className="img-fluid"/>
              </a>
        </div>
@@ -21,3 +24,4 @@ import "./Photos.css";
     return null;
  }
  }
+ <img src="image_url.jpg" alt="Description of the image" />
