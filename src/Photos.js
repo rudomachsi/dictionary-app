@@ -11,7 +11,7 @@ import "./Photos.css";
                 <div className="col-4" key={index}>
                   <a href={Photos.src.original}  target="_blank" rel="noreferrer">  
 
-                     // eslint-disable-next-line         
+                     {/* This is a comment inside JSX */}         
                        <img src="https://www.pexels.com/photo/seashore-269583/', photographer: 'Pixabay', …}" alt="Sea shore" 
              className="img-fluid"/>
              </a>
